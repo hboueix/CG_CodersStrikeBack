@@ -310,7 +310,7 @@ for i in range(10):
     print(myPod.__dict__, file=sys.stderr)
 
 # Output 1st turn
-print(str(next_checkpoint_x) + " " + str(next_checkpoint_y) + " BOOST")
+print(f'{next_checkpoint_x} {next_checkpoint_y} BOOST')
 
 # game loop
 while True:
